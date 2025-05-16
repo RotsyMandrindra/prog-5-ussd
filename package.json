@@ -1,0 +1,24 @@
+{
+  "name": "prog-5-ussd",
+  "version": "1.0.0",
+  "main": "eslint.config.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RotsyMandrindra/prog-5-ussd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RotsyMandrindra/prog-5-ussd/issues"
+  },
+  "homepage": "https://github.com/RotsyMandrindra/prog-5-ussd#readme",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^9.26.0"
+  }
+}

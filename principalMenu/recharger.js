@@ -1,6 +1,6 @@
-import { MonNumero } from '../displayMenu/monNumero';
-import { askQuestion } from '..';
-import { AutreNumero } from '../displayMenu/demandeConfirmationNumero';
+import { envoyerAUnNumero } from '../displayMenu/envoyerAUnNumero.js';
+import { MonNumero } from '../displayMenu/monNumero.js';
+import { askQuestion } from '../index.js';
 
 export async function Recharger() {
     while (true) {
@@ -16,7 +16,7 @@ export async function Recharger() {
             await MonNumero();
             return;
         } else if (choice === '2') {
-            await AutreNumero();
+            await envoyerAUnNumero();
         } else if (choice === '3') {
             console.log('Airtel Money: Aucun favoris enregistré pour ce service par ce msisdn');
         } else if (choice === '0') {

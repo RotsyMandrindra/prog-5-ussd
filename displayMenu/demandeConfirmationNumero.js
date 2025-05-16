@@ -1,4 +1,4 @@
-import { askQuestion } from '.';
+import { askQuestion } from '../index.js';
 
 export async function DemanderNumeroAvecConfirmation() {
     while (true) {

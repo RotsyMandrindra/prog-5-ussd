@@ -1,6 +1,6 @@
-import { askQuestion } from '.';
-import { achatAirtel } from '../displayMenu/achatEntreprise';
-import { paiementSurnom } from '../displayMenu/paiementAUnSurnom';
+import { askQuestion } from '../index.js';
+import { achatAirtel } from '../displayMenu/achatEntreprise.js';
+import { paiementSurnom } from '../displayMenu/paiementAUnSurnom.js';
 
 export async function Paiement() {
     console.log('\n--- Paiements ---');

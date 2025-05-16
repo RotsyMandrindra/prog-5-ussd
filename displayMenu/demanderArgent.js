@@ -1,5 +1,5 @@
-import { askQuestion } from '..';
-import { DemanderNumeroAvecConfirmation } from './demandeConfirmationNumero';
+import { askQuestion } from '../index.js';
+import { DemanderNumeroAvecConfirmation } from './demandeConfirmationNumero.js';
 
 export async function demandeArgent() {
     const phone = await DemanderNumeroAvecConfirmation();

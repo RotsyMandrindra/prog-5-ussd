@@ -1,4 +1,4 @@
-import { askQuestion } from '../eslint.config';
+import { askQuestion } from '../index.js';
 
 export async function achatAirtel(recipient) {
     const amountStr = await askQuestion('Entrez le montant en AR : ');

@@ -1,7 +1,7 @@
-import { askQuestion } from '.';
-import { demandeArgent } from '../displayMenu/demanderArgent';
-import { envoyerAUnNumero } from '../displayMenu/envoyerAUnNumero';
-import { envoyerArgentSurnom } from '../displayMenu/surnom';
+import { askQuestion } from '../index.js';
+import { demandeArgent } from '../displayMenu/demanderArgent.js';
+import { envoyerAUnNumero } from '../displayMenu/envoyerAUnNumero.js';
+import { envoyerArgentSurnom } from '../displayMenu/surnom.js';
 
 export async function EnvoyerArgent() {
     console.log('\n--- Envoyer Argent ---');

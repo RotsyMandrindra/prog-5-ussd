@@ -1,4 +1,4 @@
-import { askQuestion } from '..';
+import { askQuestion } from '../index.js';
 
 export async function envoyerArgentSurnom() {
     const surnom = await askQuestion('Entrez le surnom : ');

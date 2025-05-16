@@ -14,7 +14,7 @@ export async function demandeArgent() {
     
     const reference = await askQuestion('Entrez la référence : ');
     
-    const password = await askQuestion(`Demander ${ phone } de vous envoyer ${ amount }, saisir le code PIM pour confimer : `);
+    const password = await askQuestion(`Demander ${ phone } de vous envoyer ${ amount }, saisir le code PIN pour confimer : `);
     
         if (password.length === 0) {
             console.log('Mot de passe invalide. Opération annulée.');
